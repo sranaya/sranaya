@@ -1,0 +1,6 @@
+console.log(6+1)
+console.log(10-20)
+console.log(5+6)
+console.log(30*5)
+console.log(50/5)
+console.log("I am Sranaya")

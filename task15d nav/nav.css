@@ -1,0 +1,18 @@
+.container {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

@@ -1,0 +1,40 @@
+.section {
+    font-size: 30px;
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    color: palegreen;
+}
+.container {
+    background-color: paleturquoise;
+    color: olivedrab;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+.container:after {
+    content: '+';
+    float: right;
+    border: 3px solid olive;
+    font-size: 30px;
+}
+.active:after {
+    content: '-';
+}
+.active,
+.container:hover {
+    background-color: lightcoral;
+}
+
+.answer {
+    display: none;
+    background-color: skyblue;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 100px;
+}

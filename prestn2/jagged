@@ -1,0 +1,18 @@
+// Creating a one-dimensional array
+let myArray = [1, 2, 3, 4, 5];
+
+// Accessing elements of the array
+console.log(myArray[0]);  // Output: 1
+console.log(myArray[2]);  // Output: 3
+
+// Modifying elements of the array
+myArray[1] = 10;
+console.log(myArray);  // Output: [1, 10, 3, 4, 5]
+
+// Length of the array
+console.log(myArray.length);  // Output: 5
+
+// Iterating over the array
+for (let i = 0; i < myArray.length; i++) {
+  console.log(myArray[i]);
+}

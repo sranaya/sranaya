@@ -1,0 +1,11 @@
+let stack = [];
+
+stack.push(1);
+stack.push(2);
+stack.push(3);
+
+console.log("Stack after pushing elements:", stack);
+
+let poppedElement = stack.pop();
+console.log("Popped element:", poppedElement);
+console.log("Stack after popping an element:", stack);

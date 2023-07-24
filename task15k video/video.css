@@ -1,0 +1,25 @@
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  min-height: 100vh;
+  place-items: center;
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+.switch-btn {
+    position: absolute;
+    bottom: 7%;
+    left: 7%;
+    justify-content: space-around;
+  }
+
+
+

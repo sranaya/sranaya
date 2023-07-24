@@ -1,0 +1,10 @@
+var fruits = ['Apple', 'Banana', 'Orange'];
+
+var removedFruit = fruits.shift();
+
+console.log('Removed fruit:', removedFruit);
+console.log('Updated array:', fruits);
+
+fruits.unshift('Mango', 'Grapes');
+
+console.log('Updated array:', fruits);

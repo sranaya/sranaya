@@ -1,0 +1,32 @@
+.container {
+    background-color: rosybrown;
+    height:630px;
+    width: 500px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    color: yellowgreen;    
+}
+.closebtn {
+    padding-top: 40px;
+    padding-left: 200px;
+    line-height: 1.8;
+}
+.section1 {
+    font-size: 40px;
+}
+#bar {
+    margin-left: 98%;
+    cursor: pointer;
+    margin-top: 0px;    
+}
+.jj{
+    display: none;
+}

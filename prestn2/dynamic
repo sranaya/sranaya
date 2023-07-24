@@ -1,0 +1,24 @@
+// Create an empty dynamic array
+let dynamicArray = [];
+
+// Add elements to the dynamic array
+dynamicArray.push(10);
+dynamicArray.push(20);
+dynamicArray.push(30);
+
+// Access elements in the dynamic array
+console.log(dynamicArray[0]); // Output: 10
+console.log(dynamicArray[1]); // Output: 20
+console.log(dynamicArray[2]); // Output: 30
+
+// Update an element in the dynamic array
+dynamicArray[1] = 40;
+console.log(dynamicArray[1]); // Output: 40
+
+// Remove an element from the dynamic array
+let removedElement = dynamicArray.pop();
+console.log(removedElement); // Output: 30
+console.log(dynamicArray); // Output: [10, 40]
+
+// Get the length of the dynamic array
+console.log(dynamicArray.length); // Output: 2

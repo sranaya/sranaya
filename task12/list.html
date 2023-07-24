@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="list.css">
+</head>
+<body>
+        <div class="myform">
+              <div>
+                     <label for="id">id</label>
+                     <input type="number" id="id1"><br><br><br>
+               </div>
+              <div>
+                     <label for="cost">cost</label>
+                     <input type="text" id="cost1"><br><br><br>
+              </div>
+              <div>
+                     <label for="item description">item description</label>
+                     <input type="text" id="item"><br><br><br>
+              </div>
+              <div>
+                     <label for="date and time">date and time</label>
+                     <input type="datetime-local" id="dateandtime"><br><br>
+              </div>
+       </div>
+              <div>
+                     <button onclick= "Add()">Add</button>
+                     <button onclick="showlist()">showlist</button>
+                     <button onclick="Delete()">Delete</button>
+              </div>
+              <div id = "lists"></div>        
+</body>
+<script src="list.js"></script>
+</html>

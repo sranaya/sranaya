@@ -1,0 +1,27 @@
+// Create an empty associative array (object)
+let associativeArray = {};
+
+// Add key-value pairs to the associative array
+associativeArray["name"] = "John";
+associativeArray["age"] = 25;
+associativeArray["city"] = "New York";
+
+// Access values in the associative array
+console.log(associativeArray["name"]); // Output: "John"
+console.log(associativeArray["age"]); // Output: 25
+console.log(associativeArray["city"]); // Output: "New York"
+
+// Update values in the associative array
+associativeArray["age"] = 30;
+console.log(associativeArray["age"]); // Output: 30
+
+// Remove a key-value pair from the associative array
+delete associativeArray["city"];
+console.log(associativeArray); // Output: { "name": "John", "age": 30 }
+
+// Check if a key exists in the associative array
+console.log("name" in associativeArray); // Output: true
+console.log("city" in associativeArray); // Output: false
+
+// Get the number of key-value pairs in the associative array
+console.log(Object.keys(associativeArray).length); // Output: 2
